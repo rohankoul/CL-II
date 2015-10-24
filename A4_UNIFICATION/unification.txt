@@ -1,0 +1,52 @@
+UNIFICATION :
+
+TEST CASE 1 : 
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python unification.py 
+ENTER E1 f(x,y)
+ENTER E2 g(x,y)
+STARTING  UNIFICATION PROCESS....
+	
+CANNOT APPLY UNIFICATION (PREDICATES NOT MATCHING..)
+
+TEST CASE 2 : 
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python unification.py 
+ENTER E1 knows(x,y) 
+ENTER E2 knows(knows(x),y)
+STARTING  UNIFICATION PROCESS....
+	
+CANNOT APPLY UNIFICATION 
+
+TEST CASE 3:
+	
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python unification.py 
+ENTER E1 knows(john,x)
+ENTER E2 knows(john,jane)
+STARTING  UNIFICATION PROCESS....
+	
+jane / x
+
+TEST CASE 4:
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python unification.py 
+ENTER E1 knows(john,x)
+ENTER E2 knows(y,bill)
+STARTING  UNIFICATION PROCESS....
+	
+y / john
+bill / x
+
+TEST CASE 5:
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python unification.py 
+ENTER E1 knows(john,x)
+ENTER E2 knows(y,mother(y))
+STARTING  UNIFICATION PROCESS....
+	
+y / john
+mother(john) / x
+
+
+
+

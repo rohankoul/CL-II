@@ -1,0 +1,43 @@
+TEST CASE 1 : (DFS)
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python dfs.py
+Enter the Goal State (Enter '_' for Empty Tile) :1_3425678
+1_3425678
+Solution found at depth 2
+
+TEST CASE 2 : (DFS)
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python dfs.py
+Enter the Goal State (Enter '_' for Empty Tile) :_13425678
+_13425678
+Solution found at depth 3
+
+TEST CASE 3 : (DFS)
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python dfs.py
+Enter the Goal State (Enter '_' for Empty Tile) :1_3456728
+Solution not found ....
+
+TEST CASE 4 : (BFS)
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python bfs.py
+Enter the Goal State (Enter '_' for Empty Tile) :1234756_8
+1234756_8
+Solution Found At Level 2   
+
+
+TEST CASE 5 : (BFS)
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python bfs.py
+Enter the Goal State (Enter '_' for Empty Tile) :123_45678
+123_45678
+Solution Found At Level 2
+
+TEST CASE 6 : (BFS)
+
+rohan@rohan-HP-ProBook-4410s:~/Dropbox/7_SEMESTER$ python bfs.py
+Enter the Goal State (Enter '_' for Empty Tile) :1_4567823
+Solution Not Found Depth Exceeded....
+
+
+
